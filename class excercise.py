@@ -1,9 +1,7 @@
-# cosc110005-f26
-This repository is going to contain coding 
 # MAIN INFORMATION
 # Course: COSC 1100
 # Assignment: Numeric and String Data
-# Author: michael chisholm, Tahseenur Rahman 
+# Author: Michael Chisholm,Tahseenur Rahman
 # Date: September 24, 2026
 
 # PLAN
@@ -14,7 +12,7 @@ This repository is going to contain coding
 # 2. INPUT
 # Reservoir area = 5000 m2
 # Duck length = 10 cm
-# Duck width = 8 cm
+# Duck width = 9 cm
 
 # 3. PROCESS
 # Convert cm to m
@@ -29,13 +27,19 @@ This repository is going to contain coding
 # Display result
 
 # 5. DESK CHECK
-# 0.10 x 0.08 = 0.008 m2
-# 5000 / 0.008 = 625000 ducks
+# 9 cm / 100 = 0.09 m
+# 10 cm / 100 = 0.10 m
+# 0.09 x 0.10 = 0.009 m2
+# 5000 / 0.009 = 555555.56
 
 
-math
 
-reservoir_area = float(input("Enter the reservoir area in square metres: "))
+# PROGRAM
+
+import math
+
+reservoir_area = 5000
+
 duck_length_cm = float(input("Enter the duck length in cm: "))
 duck_width_cm = float(input("Enter the duck width in cm: "))
 
